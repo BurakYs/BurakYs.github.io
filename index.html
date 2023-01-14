@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+    <title>Burak</title>
+</head>
+
+<body>
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right"
+        uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+
+        <div class="uk-navbar-left">
+            <a href="" class="uk-navbar-item uk-logo uk-light">Burak</a>
+        </div>
+        <div class="uk-navbar-right">
+
+            <ul class="uk-navbar-nav uk-light">
+                <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
+                <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
+                <li><a class="uk-button-text uk-text-capitalize" href="#contact" uk-scroll>Contact</a></li>
+                <li><a class="uk-button-text uk-text-capitalize"
+                        href="https://github.com/BurakYs/burakys.github.io">Source Code</a></li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right"
+        uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+
+        <div class="uk-navbar-left">
+            <a href="" class="uk-navbar-item uk-logo uk-light">Burak</a>
+        </div>
+        <div class="uk-navbar-right">
+
+            <ul class="uk-navbar-nav uk-light">
+                <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
+                <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
+                <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
+                <li class="uk-active"><a href="mailto:">Contact</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+        <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm Burak, a web and bot
+            developer.</h1>
+        <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About
+            Me</a>
+
+
+    </div>
+    <br>
+
+
+    <hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
+    <div id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom"
+        style="padding-top: 10%;">
+        <h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
+        <p class="uk-margin-xlarge-left uk-margin-xlarge-right">Hi, I'm Burak. I'm a student in Turkey, I am a
+            self-taught coder with experience in HTML, CSS and JavaScript. I have been coding for several years now and
+            I'm always looking to learn more languages so that I can broaden my skill set even further. With each
+            language comes a unique way of thinking about problems which helps me become better at problem solving as
+            well as making sure my code is efficient and secure. </p>
+        <!--TODO: UPDATE THIS SHITTY ABOUT ME LATER-->
+        <a href="https://discord.com/users/678993693088415764" class="uk-margin-xlarge-left uk-light uk-button-text"
+            uk-icon="discord" target="_blank"></a> &nbsp;
+        <!--<a href="" class="uk-light uk-button-text" uk-icon="" target="_blank"></a> &nbsp;-->
+        <a href="https://github.com/BurakYs" class="uk-button-text uk-light" uk-icon="github" target="_blank"></a>
+        &nbsp;
+        <!--<a href="" class="uk-light uk-button-text" uk-icon="" target="_blank"></a>-->
+    </div>
+
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <div id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom"
+        style="padding-top: 10%;">
+        <h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
+        <p class="uk-margin-xlarge-left">Projects that I've been working on</p>
+
+        <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <h4>Maichi</h4>
+                <p>Maichi is a multi-purpose Discord bot. You can manage your server easily with advanced commands. This
+                    bot has systems like: levelling, reaction roles, giveaways, triggers, tickets and more.</p>
+                <a class="uk-button-text uk-text-decoration-none" href="https://maichi.cf/invite" target="_blank">
+                    <span uk-icon="icon: link">
+                    </span> Add to Discord</a>
+            </div>
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <h4>Maichi Website</h4>
+                <p>This website is Maichi's website. You can learn anything you want to know from this website and
+                    manage the bot from the dashboard.</p>
+                <a class="uk-button-text uk-text-decoration-none" href="https://maichi.cf/" target="_blank">
+                    <span uk-icon="icon: link">
+                    </span> Website</a>
+            </div>
+        </div>
+        <br>
+    </div>
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <div id="contact" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+        <h3 class="uk-margin-xlarge-left uk-light">Contact</h3>
+        <p class="uk-margin-xlarge-left uk-margin-xlarge-right">You can contact me on these platforms: <a
+                href="https://discord.com/users/678993693088415764" class="uk-light" uk-icon="discord"
+                target="_blank"></a> <a href="https://twitter.com/@BurakYhs0" class="uk-light" uk-icon="twitter"
+                target="_blank"></a> <a href="mailto:burakyhs@duck.com" class="uk-light" uk-icon="mail"
+                target="_blank"></a></p>
+    </div>
+
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    </div>
+</body>
+
+</html>
