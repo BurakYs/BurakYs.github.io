@@ -1,2 +1,2 @@
 # Portfolio Website Template
-### See the template [here](https://BurakYs.github.io)
+### Website Preview is available [here](https://BurakYs.github.io)
