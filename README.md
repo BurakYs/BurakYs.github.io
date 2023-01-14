@@ -1,2 +1,2 @@
 # Portfolio Website Template
-### See the template [here](https://burakyhs.me)
+### See the template [here](https://burakys.github.io)
