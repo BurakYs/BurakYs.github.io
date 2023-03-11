@@ -127,30 +127,11 @@ hr.black {
     color: #1b1e1f;
 }
 
-.images-vcenter {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.images-border {
-    border: .5em solid #000000;
-    border-radius: 3em;
-}
-
-.images-border-skiing {
-    border: .5em solid #000000;
-    border-radius: 50%;
-}
-
-.images-size-mtb {
+.image-size {
+    max-width: 100%;
     width: 70%;
     height: auto;
-}
-
-.images-size-skiing {
-    width: 90%;
-    height: auto;
+    border-radius: 10px;
 }
 
 .RlRed {
