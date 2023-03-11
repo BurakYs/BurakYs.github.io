@@ -23,6 +23,6 @@ Check out some of my other webpages at
 
 I have a custom domain connected to GitHub, so my GitHub Pages repositories 
 do not follow the usual GITHUB-USERNAME-HERE.github.io/REPOSITORY-NAME-HERE format. 
-Instead they follow a "downing.io/REPOSITORY-NAME-HERE" format. 
+Instead they follow a "burakyhs.me/REPOSITORY-NAME-HERE" format. 
 If the domain fails for some reason, you can still access my site by going to 
 [https://burakys.github.io](https://burakys.github.io)
