@@ -1,28 +1,22 @@
-## [Preview](https://burakyhs.me/)
-Built using:
---------------------------------------------------------------------------------
-[HTML5](https://developers.google.com/web/)  
-[Bootstrap](http://getbootstrap.com/) for CSS  
-[jQuery](https://jquery.com/) for JS  
-[namecheap](https://www.namecheap.com/) for the awesome domain  
-[GitHub Pages](https://pages.github.com/) for hosting  
-[CloudFlare](https://www.cloudflare.com/) for the SSL cert and fancy green lock :lock:  
-[git](https://git-scm.com/) for source control
+# 🚀 My Personal Website
 
-Based on the
-[Creative Bootstrap theme](http://startbootstrap.com/template-overviews/creative/)
-from [Start Bootstrap](http://startbootstrap.com/).
-The theme is also MIT Licensed.
+Welcome to my personal website, where you can explore my projects and interests.
 
-View it here: [burakyhs.me](https://burakyhs.me/)
+## 🌟 Overview
 
-Check out some of my other webpages at 
-[github.com/BurakYs/](https://github.com/BurakYs/)
+This website is designed with a clean and responsive interface, utilizing Bootstrap for the front-end development. It
+provides a user-friendly experience, making it easy to navigate and discover the content.
 
-##### NOTE:
+## ✨ Features
 
-I have a custom domain connected to GitHub, so my GitHub Pages repositories 
-do not follow the usual GITHUB-USERNAME-HERE.github.io/REPOSITORY-NAME-HERE format. 
-Instead they follow a "burakyhs.me/REPOSITORY-NAME-HERE" format. 
-If the domain fails for some reason, you can still access my site by going to 
-[https://burakys.github.io](https://burakys.github.io)
+- **Bootstrap-Powered:** The website's frontend is built using Bootstrap, ensuring a modern and polished design.
+- **Responsive Design:** The website adapts to different screen sizes and devices, providing a consistent experience for
+  all visitors.
+- **Project Showcase:** Explore my various coding projects and personal interests through the website's organized
+  sections.
+
+## 🚀 Getting Started
+
+To visit my website and explore the content, click the link below:
+
+[🔗 Preview the Website](https://www.buraky.live)

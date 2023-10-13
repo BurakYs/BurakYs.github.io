@@ -23,11 +23,11 @@ html {
     font-size: 97%;
 }
 
-#about>div>div:nth-child(2)>div:nth-child(3)>p.text-faded.no-margin {
+#about > div > div:nth-child(2) > div:nth-child(3) > p.text-faded.no-margin {
     margin-bottom: 0;
 }
 
-#about>div>div:nth-child(2)>div:nth-child(4)>p.text-faded.no-margin {
+#about > div > div:nth-child(2) > div:nth-child(4) > p.text-faded.no-margin {
     margin-bottom: 0;
 }
 
@@ -138,6 +138,7 @@ hr.black {
     color: #E61231 !important;
     font-weight: bold;
 }
+
 .line_1,
 .line_2,
 .line_3 {
